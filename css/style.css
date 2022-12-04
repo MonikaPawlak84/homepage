@@ -1,0 +1,171 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.navigation {
+    background-color: #d59d9d;
+    color: #161616;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.navigationList {
+    display: inline;
+    list-style: none;
+}
+
+.navigationItem {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+.navigationLink {
+    color: hsl(0, 0%, 9%);
+    text-decoration: none;
+}
+
+a.navigationLink {}
+
+.navigationLink:hover {
+    color: hsl(0, 0%, 30%);
+  
+}
+
+.navigationLink:active {
+    color:hsl(0, 0%, 60%);
+}
+
+.firstPage {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: #161616;
+    padding: 30px;
+    text-align: center;   
+}
+
+.ciekawyElement {
+    color: #4e1a0a;
+    font-weight: 900;
+}
+
+.secondPage {
+    color: #161616;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 2px solid #d59d9d;   
+}
+
+body {
+    color:#161616;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 3px solid #d59d9d;
+    padding FONT-WEIGHT: 100;
+    box-shadow: 3px 3px 5px #aaa;
+}
+
+.buttonImg {
+    color: white;
+    background-color: #d59d9d;
+    text-decoration: none;
+    padding: 10px 10px;
+   
+}
+.element {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 100;
+}
+
+.kolor {
+    font-weight: bold;
+}
+
+.containerTable {
+    padding-bottom: 30px;
+}
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(247, 49, 158);
+    outline: none;
+}
+
+.link:active {
+    color:rgb(80, 2, 45)
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.tableCell:hover {
+    background-color: #f3f1f1;
+}
+
+.caption {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tableHeader {
+    background-color: #d59d9d;
+
+}
+
+.containerTable {
+    overflow-x: auto;
+}
+
+.footer {
+    background-color: #8b8888;
+    padding: 20px;
+    text-align: center;
+}
+
+.dark {
+    color:rgb(255, 255, 255);
+    background: rgb(109, 108, 108);
+}
+
+.button {
+    color: white;
+    background-color: #d59d9d;
+    text-decoration: none;
+    padding: 10px 10px;
+   
+}
